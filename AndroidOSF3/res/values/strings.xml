@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidOSF3</string>
+    <string name="hello_world">.?</string>
+    <string name="action_settings">Settings</string>
+    <string name="info1">Alege o săptămână din semestru:</string>
+    <string name="info2">Alege o zi a săptămânii:</string>
+    <string name="info3">Orar</string>
+    <string name="info4">Alege un semestru:</string>
+    <string name="subtitle_text">app by BogdanBBA</string>
+    <string name="subtitle2_text">version 1.0 (December 6th-7th, 2014)</string>
+    <string name="subtitle3_text">version 1.1 beta (March 2nd-3rd, 2015)</string>
+    <string name="option1_text">Enlarge user interface</string>
+    <string name="option1_checkbox_text">Yes</string>
+    <string name="option2_text">Remember last semester</string>
+    <string name="option2_checkbox_text">Yes</string>
+    <string name="save_button_text">Save</string>
+
+    <color name="semester_spinner_text_color">#FAA914</color>
+    <color name="week_spinner_text_color">#BDDB51</color>
+    <color name="dow_spinner_text_color">#519BDB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_color">#171717</color>
+    <color name="time_color">#FFFFFF</color>
+    <color name="discipline_color">#E6EBEB</color>
+    <color name="prof_color">#D4C183</color>
+    <color name="room_color">#C7CDD1</color>
+
+    <string name="title_activity_options">Options</string>
+
+</resources>

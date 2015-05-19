@@ -1,0 +1,111 @@
+<OSF3_Database>
+  <DateGlobale>
+    <IntervaleOrare>  
+      <intervalOrar ID="A" deLa="8:00" la="9:40" />
+      <intervalOrar ID="B" deLa="9:50" la="11:30" />
+      <intervalOrar ID="C" deLa="11:40" la="13:20" />
+      <intervalOrar ID="D" deLa="13:30" la="15:10" />
+      <intervalOrar ID="E" deLa="15:20" la="17:00" />
+      <intervalOrar ID="F" deLa="17:10" la="18:50" />
+      <intervalOrar ID="G" deLa="19:00" la="20:40" />
+    </IntervaleOrare>
+    <TipuriOre>
+      <tipOre ID="C" nume="CURS" col="#F06916" />
+      <tipOre ID="L" nume="LABORATOR" col="#67A4EB" />
+      <tipOre ID="S" nume="SEMINAR" col="#EDDF15" />
+      <tipOre ID="E" nume="EXAMEN" col="#FF0000" />
+    </TipuriOre>
+    <Profesori>
+      <profesor ID="ALD" nume="Costel Aldea" />
+      <profesor ID="BAI" nume="Alexandra Băicoianu" />
+      <profesor ID="VAS" nume="Anca Vasilescu" />
+      <profesor ID="SCH" nume="Ernest Scheiber" />
+      <profesor ID="BC1" nume="Dorin Bocu" />
+      <profesor ID="PAL" nume="Eugen Paltanea" />
+      <profesor ID="BC2" nume="Răzvan Bocu" />
+      <profesor ID="STR" nume="Cosmin Stroe" />
+      <profesor ID="NAN" nume="Corina Nănău" />
+      <profesor ID="PLJ" nume="Ioana Plajer" />
+      <profesor ID="FLO" nume="Ionuț Florea" />
+      <profesor ID="SAN" nume="Livia Sângeorzan" />
+      <profesor ID="SAS" nume="Lucian Sasu" />
+      <profesor ID="SA$" nume="Adela Sasu" />
+      <profesor ID="IAC" nume="Paul Iacob" />
+      <profesor ID="PLU" nume="Plugaru L." />
+    </Profesori>
+    <Sali>
+      <sala ID="pp.5" nume="PP5" />
+      <sala ID="p1.2" nume="PI2" />
+      <sala ID="p2.1" nume="PII1" />
+      <sala ID="p2.2" nume="PII2" />
+      <sala ID="p2.3" nume="PII3" />
+      <sala ID="p2.4" nume="PII4" />
+      <sala ID="p2.5" nume="PII5" />
+      <sala ID="p2.6" nume="PII6" />
+      <sala ID="p3.1" nume="PIII1" />
+      <sala ID="p3.2" nume="PIII2" />
+      <sala ID="p3.4" nume="PIII4" />
+    </Sali>
+  </DateGlobale>
+  <Semestre>
+    <Semestru ID="UniTBv:7221.A:6" universitate="Transilvania Brașov" facultate="Matematică și Informatică" grupa="7221" anUniversitar="2014-2015" semestru="IV">
+      <CategoriiSaptamani>
+        <categorie ID="impare" nume="Săptămâni impare" incepand="2015.02.23; 2015.03.09; 2015.03.23; 2015.04.06; 2015.04.27; 2015.05.11; 2015.05.25" />
+        <categorie ID="pare" nume="Săptămâni pare" incepand="2015.03.02; 2015.03.16; 2015.03.30; 2015.04.20; 2015.05.04; 2015.05.18; 2015.06.01" />
+        <categorie ID="sesiuneS2" nume="Sesiunea de examene (săptămâna 1)" incepand="2015.06.08" />
+      </CategoriiSaptamani>
+      <Discipline>
+        <disciplina ID="M.P.I." nume="Management proiecte" col1="#8A5812" col2="#E0EB83">
+          <ore tip="C" cand="impare+pare:3@D" unde="p2.2" cuCine="BC1" />
+          <ore tip="L" cand="impare+pare:3@E" unde="p2.3" cuCine="BC1" />
+        </disciplina>
+        <disciplina ID="I.A." nume="Inteligență artificială" col1="#4D0869" col2="#B762D9">
+          <ore tip="C" cand="impare+pare:4@A" unde="p2.2" cuCine="SAS" />
+          <ore tip="L" cand="impare+pare:1@E" unde="p2.5" cuCine="BAI" />
+        </disciplina>
+        <disciplina ID="S.S.I." nume="Securitate sisteme" col1="#025599" col2="#66B9E3">
+          <ore tip="C" cand="impare+pare:1@F" unde="p1.2" cuCine="ALD" />
+          <ore tip="L" cand="impare+pare:2@C" unde="p2.3" cuCine="IAC" />
+        </disciplina>
+        <disciplina ID="P.S." nume="Probabilități și statistică" col1="#75001D" col2="#D993A5">
+          <ore tip="C" cand="impare+pare:3@A" unde="p1.2" cuCine="PAL" />
+          <ore tip="S" cand="impare:3@B" unde="p2.2" cuCine="PAL" />
+          <ore tip="L" cand="pare:3@B" unde="p2.4" cuCine="PAL" />
+        </disciplina>
+        <disciplina ID="E.L.Ș." nume="Editare lucrări științifice" col1="#125E3C" col2="#10E082">
+          <ore tip="C" cand="impare+pare:2@A" unde="p3.2" cuCine="SA$" />
+          <ore tip="L" cand="impare+pare:2@B" unde="pp.5" cuCine="SA$" />
+        </disciplina>
+      </Discipline>
+    </Semestru>
+    <Semestru ID="UniTBv:7221.A:5" universitate="Transilvania Brașov" facultate="Matematică și Informatică" grupa="7221.A" anUniversitar="2014-2015" semestru="V">
+      <CategoriiSaptamani>
+        <categorie ID="impare" nume="Săptămâni impare" incepand="2014.10.13; 2014.10.27; 2014.11.10; 2014.11.24; 2014.12.08; 2015.01.05; 2015.01.19" />
+        <categorie ID="pare" nume="Săptămâni pare" incepand="2014.10.06; 2014.10.20; 2014.11.03; 2014.11.17; 2014.12.01; 2014.12.15; 2015.01.12" />
+      </CategoriiSaptamani>
+      <Discipline>
+        <disciplina ID="C.Op." nume="Cercetări operaționale" col1="#284D26" col2="#93D58F">
+          <ore tip="C" cand="impare+pare:3@B" unde="p2.2" cuCine="VAS" />
+          <ore tip="L" cand="impare:1@B" unde="p2.6" cuCine="VAS" />
+          <ore tip="S" cand="impare:3@E" unde="p1.2" cuCine="BAI" />
+        </disciplina>
+        <disciplina ID="I.S." nume="Ingineria softului" col1="#752237" col2="#D44C6E">
+          <ore tip="C" cand="impare+pare:1@C" unde="p2.2" cuCine="BC1" />
+          <ore tip="L" cand="impare+pare:3@F" unde="p2.3" cuCine="BC1" />
+        </disciplina>
+        <disciplina ID="P.D." nume="Programare distribuită" col1="#D66000" col2="#F0ED60">
+          <ore tip="C" cand="impare+pare:3@A" unde="p2.2" cuCine="SCH" />
+          <ore tip="L" cand="impare+pare:1@F" unde="p3.4" cuCine="STR" />
+        </disciplina>
+        <disciplina ID="T.W." nume="Tehnologii web" col1="#162452" col2="#439FD1">
+          <ore tip="C" cand="impare+pare:2@C" unde="p2.1" cuCine="SAN" />
+          <ore tip="L" cand="impare+pare:2@B" unde="p2.4" cuCine="NAN" />
+        </disciplina>
+        <disciplina ID="Lnx" nume="Linux" col1="#591973" col2="#AE4ED4">
+          <ore tip="C" cand="impare+pare:4@B" unde="p2.2" cuCine="FLO" />
+          <ore tip="L" cand="impare+pare:4@A" unde="p2.5" cuCine="FLO" />
+        </disciplina>
+      </Discipline>
+    </Semestru>
+  </Semestre>
+</OSF3_Database>
